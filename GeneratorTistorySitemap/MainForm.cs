@@ -212,7 +212,7 @@ namespace GeneratorTistorySitemap
             StringBuilder sitemap = new StringBuilder();
             sitemap.Append("<?xml version=\"1.0\" encoding=\"UTF-8\"?>");
             sitemap.Append("<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">");
-            foreach (var post in list.Where(x => x.Visibility == 3))
+            foreach (var post in list.Where(x => x.Visibility == 20))
             {
                 sitemap.Append("<url>");
                 sitemap.Append("<loc>");
